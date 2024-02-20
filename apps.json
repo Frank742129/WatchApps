@@ -274,7 +274,17 @@
       {"name":"widbat.wid.js","url":"widget.js"}
     ]
   },
-  { "id": "widancs",
+  { "id": "timer",
+    "name": "Timer App",
+    "icon": "timer.png",
+    "version":"0.01",
+    "description": "Simple timer app",
+    "tags": "timer",
+    "type":"app",
+    "storage": [
+      {"name":"timer.app.js","url":"timer.js"}
+    ]
+  },  { "id": "widancs",
     "name": "Apple Notification Widget",
     "shortName":"ANCS Widget",
     "icon": "widget.png",
