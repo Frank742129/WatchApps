@@ -285,7 +285,7 @@
       {"name":"timer.app.js","url":"timer.js"}
     ]
   },  { "id": "widancs",
-    "name": "Apple Notification Widget",
+    "name": "+++ Apple Notification Widget +++",
     "shortName":"ANCS Widget",
     "icon": "widget.png",
     "version":"0.08",
