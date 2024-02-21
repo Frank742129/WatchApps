@@ -334,7 +334,7 @@
       {"name":"calc.img","url":"calc-icon.js","evaluate":true }
     ]
   },
-  { "id": "calctest",
+  { "id": "calct",
     "name": "Calc Test",
     "icon": "calc.png",
     "version":"0.02",
@@ -342,8 +342,8 @@
     "tags": "tool",
     "allow_emulator":false,
     "storage": [
-      {"name":"calc.app.js","url":"calc.js"},
-      {"name":"calc.img","url":"calc-icon.js","evaluate":true }
+      {"name":"calct.app.js","url":"calct.js"},
+      {"name":"calct.img","url":"calct-icon.js","evaluate":true }
     ]
   },
   { "id": "life",
