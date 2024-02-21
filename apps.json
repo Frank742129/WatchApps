@@ -336,7 +336,7 @@
   },
   { "id": "calct",
     "name": "Calc Test",
-    "icon": "calc.png",
+    "icon": "calct.png",
     "version":"0.02",
     "description": "Simple Calculator Test",
     "tags": "tool",
