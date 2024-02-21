@@ -10,7 +10,7 @@ Const.HAS_E_SHOWMESSAGE = true;
 
 Const.MESSAGE_RELOAD ="Press BTN1 to reload";
 
-if (window.location.host=="espruino.com") {
+if ((window.location.host=="espruino.com") || (window.location.host=="frank742129.github.io")){
   document.getElementById("apploaderlinks").innerHTML =
     'This is the official Espruino App Loader - you can also try the <a href="https://espruino.github.io/EspruinoApps/">Development Version</a> for the most recent apps.';
 } else if (window.location.host=="espruino.github.io") {
