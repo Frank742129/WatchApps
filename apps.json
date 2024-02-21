@@ -335,10 +335,10 @@
     ]
   },
   { "id": "calctest",
-    "name": "Calc",
+    "name": "Calc Test",
     "icon": "calc.png",
-    "version":"0.01",
-    "description": "Simple Calculator",
+    "version":"0.02",
+    "description": "Simple Calculator Test",
     "tags": "tool",
     "allow_emulator":false,
     "storage": [
