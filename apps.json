@@ -346,6 +346,20 @@
       {"name":"calct.img","url":"calct-icon.js","evaluate":true }
     ]
   },
+{
+  "id": "widbt",
+  "name": "Bluetooth Widget",
+  "version": "0.09",
+  "description": "Show the current Bluetooth connection status in the top right of the clock",
+  "icon": "widget.png",
+  "type": "widget",
+  "tags": "widget,bluetooth",
+  "provides_widgets" : ["bluetooth"],
+  "default" : true,
+  "storage": [
+    {"name":"widbt.wid.js","url":"widget.js"}
+  ]
+},
   { "id": "life",
     "name": "Life",
     "icon": "life.png",
