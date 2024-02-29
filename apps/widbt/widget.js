@@ -30,7 +30,7 @@ NRF.setServices({
       writable : true,
       onWrite : function(evt) {
         let str = stringFromArray(evt.data);
-        Bangle.buzz(400);
+        //Bangle.buzz(400);
       }
     }
   }
