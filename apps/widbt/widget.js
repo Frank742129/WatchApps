@@ -41,7 +41,7 @@ NRF.setServices({
       }
     }
   }
-}, { });
+}, { uart : false, advertise: [ '190a' ] });
 
 // Change name to 'Flag'
 NRF.setAdvertising({}, {name:"Golfwatch"});
