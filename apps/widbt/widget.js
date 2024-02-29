@@ -30,17 +30,7 @@ NRF.setServices({
       writable : true,
       onWrite : function(evt) {
         let str = stringFromArray(evt.data);
-		Bangle.buzz(400);
-#if false
-        if(str === "__EOM__") {
-          if(BLEMessage) {
-            /* showMsg('Message',BLEMessage);*/
-          }
-          BLEMessage = '';
-        } else {
-          BLEMessage += str;
-        }
-#endif
+        Bangle.buzz(400);
       }
     }
   }
