@@ -33,8 +33,7 @@ NRF.setServices({
       maxLen : 20,
       writable : true,
       onWrite : function(evt) {
-        //let str = stringFromArray(evt.data);
-        Bangle.buzz(400);
+		filterCmd(evt.data);
       }
     }
   }
@@ -43,3 +42,14 @@ NRF.setServices({
 // Change name to 'Golfwatch'
 NRF.setAdvertising({}, {name:"Golfwatch"});
 NRF.disconnect();
+
+void filterCmd(String Command) {
+	if (Command.substring(0, 7) == "AT+HOLE")
+	{
+        Bangle.buzz(100);
+	}
+	else if (Command.substring(0, 11) == "AT+NRHOLES=") {
+		int holes = Command.substring(11).toInt();
+		Bangle.buzz(holes*100);
+	}
+}
