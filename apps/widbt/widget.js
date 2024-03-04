@@ -23,6 +23,9 @@ NRF.on('disconnect',WIDGETS["bluetooth"].changed);
 ** string signals another BLE process updated those files)
 */
 var BLEMessage = "";
+
+NRF.setServices({});
+
 NRF.setServices({
   "0x190a": {
     "0x0002": {
@@ -30,7 +33,7 @@ NRF.setServices({
       maxLen : 20,
       writable : true,
       onWrite : function(evt) {
-        let str = stringFromArray(evt.data);
+        //let str = stringFromArray(evt.data);
         Bangle.buzz(400);
       }
     }
